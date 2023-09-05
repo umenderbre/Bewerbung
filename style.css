@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+*{margin: 0; padding: 0;}
+h1 {font-size: 40px; font-weight: bold; padding: 10px;}
+h2 { front-size: 1em; text-align: center;} 
+p {font-size: 1.3em; color: black; font-family: Staatliches; }
+html,a{font-family:Verdana,sans-serif;font-size:16px;line-height:1.5}html{overflow-x:hidden}
+a:hover {text-decoration: underline; }
+.active { text-decoration: underline; font-weight: bold;}
+a{color:white; text-decoration: none; font-size: 1.4em; font-family: staatliches;}
+h7{font-family: staatliches; color: black; font-size: 6em;}
+
+#name{
+display: flex;
+flex: 100%;
+justify-content: center;
+margin-top: 35px;
+margin-bottom: 40px;
+}
+
+#leiste{
+background-color:#282828;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px;
+position: fixed;
+z-index: 1 ;
+width: 100%;
+}
+
+#leiste li{
+list-style: none;
+display: inline;
+padding-right: 2.5em;
+}
+
+#logo {
+display: flex;
+justify-content: center;
+padding-left: 0.5em;
+padding-top: 5px;
+}
+
+#Bild {
+display: flex;
+justify-content: center;
+}
+
+#Bild img {
+	margin-top: 50px;
+	width: 1013px;
+	height: 560px;
+	margin-bottom: -99px;
+	}
+
+
+#logo img{
+width: 110px;
+}
+
+#galerie {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	flex-direction: row;
+	border-top: medium;
+	font-family: "staatliches";
+	text-align: center;
+	background-color: #f4f4f4;
+	padding-top: 50px;
+	
+}
+
+.box {
+width: 30%;
+height: 100%;
+margin-bottom: 2%;
+padding: 0px;
+transform: scale(1.00);
+transition: transform 0.2s ease;
+}
+
+
+.box:hover {
+transform: scale(1.03);
+transition: transform 0.2s ease;
+}
+
+.undertitle{
+	text-decoration: none;
+}

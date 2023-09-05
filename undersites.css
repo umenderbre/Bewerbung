@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Staatliches');
+
+*{margin: 0; padding: 0;}
+h1 {font-size: 40px; font-weight: bold; padding: 10px; color: black; }
+h2 {font-size: 40px; color: black;}
+h3 { front-size: 1em; text-align: center;}
+p {text-align: center; font-family: staatliches; padding-top: 10px;}
+html,a{font-family:Verdana,sans-serif;font-size:16px;line-height:1.5}html{overflow-x:hidden}
+a:hover {text-decoration: underline;}
+.active { text-decoration: underline; font-weight: bold;}
+a{color:white; text-decoration: none; font-size: 1.4em; font-family: staatliches;}
+h7{font-family: staatliches; color: white; font-size: 1.4em;}
+
+#name{
+	display: flex;
+	padding-right:  800px;
+	}
+
+#leiste{
+	background-color: #282828;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	position: fixed;
+	z-index: 1 ;
+	width: 100%;
+	}
+	
+	#leiste li{
+	list-style: none;
+	display: inline;
+	padding-right: 2.5em;
+	}
+
+	#logo {
+		display: flex;
+		justify-content: center;
+		padding-left: 0.5em;
+		padding-top: 5px;
+		}
+
+	#logo img{
+				width: 110px;
+				}
+
+		#Bild {
+			display: flex;
+			justify-content: center;
+			}
+
+#Bild img{
+margin-top: 80px;
+}
+						
+#container {
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: white;
+	justify-content: center;
+	}
+
+
+}
+#mitte {
+	width: 50%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.undertitle{
+	text-decoration: none;
+}
+
+
+
+
+
+.me{
+    margin-top: 3em;
+}
+
+
+
+
+#container {
+	display:flex;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: white;
+	justify-content: center;
+	}
+
+#container_foto {
+		display:flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		}
+
+#inhalt{
+	width: 65%;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	}
+
+.icons img{
+	border: 1px solid #707070;
+	}
+.icons img:hover {
+	transform: scale(1.04);
+	transition: transform 0.3s ease;
+}
+#pdf {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: white;
+    align-items: flex-start;
+    padding-bottom: 100px;
+    }
+
+
+	#oben{
+		display: flex;
+		justify-content: space-around;
+	
+		width: 100%;
+		padding-bottom: 30px;
+	}
+	#unten{
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+	}
+
+
